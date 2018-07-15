@@ -1,0 +1,8 @@
+{
+  "name": "sendsms",
+  "app_id": "b86c5e81",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
