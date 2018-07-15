@@ -40,7 +40,7 @@ export class HomePage {
     };
 
     const toast = this.toastCtrl.create({
-      message: 'User was added successfully',
+      message: 'Message was sent successfully',
       duration: 3000
     });
     for(var i = 0, ulength = this.users.length; i < ulength ; i++) {
