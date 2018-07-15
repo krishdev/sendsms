@@ -18,11 +18,11 @@ export class HomePage {
     var options={
           replaceLineBreaks: false, // true to replace \n by a new line, false by default
           android: {
-              intent: 'INTENT'  // Opens Default sms app
+              intent: ''  // Opens Default sms app
               //intent: '' // Sends sms without opening default sms app
             }
     }
-    this.smsVar.send('416123456', 'Hello world!',options)
+    this.smsVar.send('6147875430', 'Hello Krish',options)
       .then(()=>{
         alert("success");
       },()=>{
