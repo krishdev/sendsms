@@ -1,18 +1,17 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Send group SMS
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    Hi {{name}}
-  </p>
   <div>
-    <button (click)="sendSms()">Click</button>
-    <h4>{{clickMessage}}</h4>
+    <button (click)="sendSms('bottom', 'warning')" ion-button block>Warning</button>
+    <button (click)="sendSms('bottom', 'alert')" ion-button block>Alert</button>
+    <button (click)="sendSms('bottom', 'emergency')" ion-button block>Emergency</button>
+    <button (click)="sendSms('bottom', 'success')" ion-button block>Success</button>    
   </div>
 </ion-content>
+ 
