@@ -27,7 +27,7 @@ export class HomePage {
     public popoverCtrl: PopoverController,
     private storage: Storage) {
     var self = this;
-    this.isLoaded = false;
+    //this.isLoaded = false;
     this.users = afDB.list('users').valueChanges();
       console.log(this.users);
     // ref.on("value", function(snapshot) {
